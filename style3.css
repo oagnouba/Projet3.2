@@ -1,0 +1,50 @@
+html
+{
+  font-family: 'Cookie', cursive;
+  height: 100%;
+}
+
+body
+{
+  background: #D3D3D3;
+}
+
+h1 /*ok*/
+{
+  background: linear-gradient(to right, #EE82EE, #1E90FF);
+  -webkit-background-clip: text;
+}
+
+header, h2 /*ok*/
+{
+  text-align: center;
+}
+
+hr
+{
+  height: 1px;
+  margin: -0.5em 7px;
+  padding: 0;
+  color: #F00;
+  background-color: #F00;
+  border: 0;
+  width: 98%;
+}
+
+h2
+{
+  margin: -15px auto auto auto;
+  background-color: #D3D3D3;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 155px;
+}
+
+ul
+{
+  padding-right: 25px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+
