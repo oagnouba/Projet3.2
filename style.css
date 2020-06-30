@@ -1,0 +1,305 @@
+body /*ok*/
+{
+	margin: 0;
+	padding: 0;
+}
+
+header h1
+{
+	margin: 0;
+  width: 100%;
+}
+
+.ohmy /*ok*/
+{
+  font-family: 'Comic Neue', cursive;
+  background-color: #3C6F4C;
+  font-size: 30px;
+  color: #9EA515;
+  padding: 20px;
+  text-align: center;
+  display: block;
+}
+
+section
+{
+	max-width: 810px;
+	margin: auto;
+}
+
+.menu /*ok*/
+{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-self: center;
+	align-items: center;
+	font-size: 14px;
+	padding: 0px;
+}
+
+.fas /*ok*/
+{
+	font-size: 25px;
+	margin-top: 50px;
+	background: linear-gradient(to right, #FF5349, #FF0000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h2 /*ok*/
+{
+	font-size: 20px;
+}
+
+.noteCard, .chic, .delice, .gout /*ok*/
+{
+	width: 60%;
+  max-width: 210px;
+	height: 250px;
+	padding: 20px;
+	text-align: center;
+	margin: 35px;
+	box-shadow: 0px 0px 10px #000,
+              0px 0px 20px #777;
+}
+
+.menu a
+{
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 10%;
+	width: 80%;
+	height: 80%;
+}
+
+
+.li1, .li2, .li3, .li4 /*ok*/
+{
+	font-size: 20px;
+}
+
+.menu a:active
+{
+  transition: transform;
+}
+
+.menu a:hover
+{
+	animation: zoom 2s both;
+}
+
+@keyframes zoom
+{
+	0% {transform: scale(1);}
+	50% {transform: scale(1.1);}
+	100% {transform: scale(1.2);
+				opacity: 1;}
+}
+
+.noteCard /*ok*/
+{
+	font-family: 'Dancing Script', cursive;
+	background: #FFB6C1;
+}
+
+.noteCard a /*ok*/
+{
+	color: #000000;
+}
+
+.li1 /*ok*/
+{
+	font-family: 'Coda', cursive;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.chic /*ok*/
+{
+	font-family: 'Poiret One', cursive;
+	background: #F5F5F5;
+}
+
+.chic h2 /*ok*/
+{
+	font-size: 15px;
+	background: linear-gradient(to right, #FF0000, #EE82EE);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.li2 /*ok*/
+{
+	color: #800000;
+}
+
+.delice /*ok*/
+{
+	font-family: 'Cookie', cursive;
+	background: #D3D3D3;
+}
+
+.delice h2 /*ok*/
+{
+	background: linear-gradient(to right, #EE82EE, #1E90FF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.li3 /*ok*/
+{
+	color: #1E90FF;
+}
+
+.gout h2 /*ok*/
+{
+	background: linear-gradient(to right, #008000, #A8FF33);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.gout
+{
+font-family: 'Advent Pro', sans-serif;
+
+}
+
+.li4 /*ok*/
+{
+	color: #2CD27F;
+}
+
+.li3, .li4 /*ok*/
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.next /*ok*/
+{
+	font-family: 'Karma', serif;
+	width: 210px;
+	text-align: center;
+	margin: 20px auto;
+	padding: 0.1%;
+	background-color: #3C6F4C;
+	font-size: 23px;
+	color: #9EA515;
+	border-radius: 10px;
+}
+
+.next h1 /*ok*/
+{
+  display: inline;
+	color: #9EA515;
+}
+
+.point:after
+{
+	display: inline-block;
+	animation: suspens steps(1,end) 1s infinite;
+	content: '';
+}
+
+@keyframes suspens
+{
+0%   { content: ''; }
+25%  { content: '.'; }
+50%  { content: '..'; }
+75%  { content: '...'; }
+100% { content: ''; }
+}
+
+.end /*ok*/
+{
+	font-size: 20px;
+	background-color: #3C6F4C;
+	color: #9EA515;
+	display: flex;
+	justify-content: space-between;
+	padding: 1%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.end a /*ok*/
+{
+	color: #9EA515;
+}
+
+.mentions /*ok*/
+{
+	color: #9EA515;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+.mentions:hover /*ok*/{
+  animation: shake 0.6s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.contact /*ok*/
+{
+	padding-right: 2px;
+}
+
+.contact:hover /*ok*/{
+  animation: shake 0.6s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
